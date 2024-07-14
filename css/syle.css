@@ -1,0 +1,44 @@
+
+
+.sidebar {
+    
+   
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    background-color: black; 
+    color: #fff;
+    padding: 1rem;
+    z-index: 9999; 
+}
+
+.menu-icon {
+ 
+    cursor: pointer;
+}
+img{
+    cursor: pointer;
+}
+
+
+#loading-indicator {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    text-align: center;
+    color: #fff;
+}
+
+
+.demo{
+    width: 100px;
+}
+
+
+    .close{
+        cursor: pointer;
+    }
